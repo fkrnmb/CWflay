@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx,ARM_MATH_CM4</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMSIS\include;.\HAL\Inc;.\HAL\Inc\Legacy;.\Main;.\system;.\Device\cherryUSB\port\dwc2;.\Device\cherryUSB\core;.\Device\cherryUSB\common;.\Device\cherryUSB\class\cdc;.\Device\cherryUSB;.\Device;.\Device\cherryUSB\class\hub;.\Device\cherryUSB\class\msc;.\Device\cherryUSB\class\hid;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM4F;.\FreeRTOS\portable\MemMang;.\FreeRTOS\examples\template_configuration;.\MinSensor;.\Device\cherryUSB\class\msc;.\Device\ff16\source;.\Communication\MAVLINK\common;.\Communication\MAVLINK;.\Communication</IncludePath>
+              <IncludePath>.\CMSIS\include;.\HAL\Inc;.\HAL\Inc\Legacy;.\Main;.\system;.\Device\cherryUSB\port\dwc2;.\Device\cherryUSB\core;.\Device\cherryUSB\common;.\Device\cherryUSB\class\cdc;.\Device\cherryUSB;.\Device;.\Device\cherryUSB\class\hub;.\Device\cherryUSB\class\msc;.\Device\cherryUSB\class\hid;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM4F;.\FreeRTOS\portable\MemMang;.\FreeRTOS\examples\template_configuration;.\MinSensor;.\Device\cherryUSB\class\msc;.\Device\ff16\source;.\Communication\MAVLINK\common;.\Communication\MAVLINK;.\Communication;.\Fliter</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -624,6 +624,16 @@
               <FileName>HeaDingSensor.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\MinSensor\HeaDingSensor.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Filter</GroupName>
+          <Files>
+            <File>
+              <FileName>ButterWorth.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Fliter\ButterWorth.cpp</FilePath>
             </File>
           </Files>
         </Group>

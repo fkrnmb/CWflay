@@ -1,0 +1,16 @@
+RTE/
+Listings/
+Readme/
+Firmware/
+Objects/*
+.vscode/
+!Objects/ACFly_Prophet.sct
+!Objects/
+EventRecorderStub.scvd
+LICENSE
+ACFly.uvoptx
+ACFly.uvprojx.*
+ACFly.uvguix.*
+ACFly.uvguix.15626
+ACFly.uvguix.Chloe
+ACFly.uvguix.ZhuZhu
